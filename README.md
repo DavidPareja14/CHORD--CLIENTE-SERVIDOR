@@ -37,6 +37,7 @@ Se debe cambiar el archivo config.json con las direcciones ip y puertos de cada 
 contine la configuración para probar el trabajo de forma local.
 * El programa se puede probar en el SO Windows, pero se debe descargar una terminal
 que soporte los comandos de Linux.
+* Para que el trabajo funcione con varias computadoras, se ha tenido en cuenta muchos factores, como por ejemplo, particionar los archivos de tal manera que cada parte fuera identificada de forma única y almacenada en una computadora (servidor), el paso de archivos (cada archivo particionado) se hace con un tamaño tal que compense el envío por la red, el tamaño de cada parte fue de 10MB, esto permite que el sistema no colapse, ya que 10MB pueden ser cargados fácilmente en memoria principal y los núcleos de cada computadora los pueden procesar rápidamente.
 
 ## Advertencia
 
