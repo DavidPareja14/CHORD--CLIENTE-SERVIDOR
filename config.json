@@ -1,0 +1,7 @@
+{
+	"bits": 6,
+	"57": {"predPort": "5555", "clients": "localhost:6666", "succesor": "localhost:3333"},
+	"4": {"predPort": "3333", "clients": "localhost:6667", "succesor": "localhost:9999"},
+	"18": {"predPort": "9999", "clients": "localhost:6668", "succesor": "localhost:8888"},
+	"44": {"predPort": "8888", "clients": "localhost:6669", "succesor": "localhost:5555"}
+}
